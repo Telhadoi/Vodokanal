@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+*{
+    margin: 0;
+    font-family: 'Inter' , 'Comfortaa';
+    scroll-behavior: smooth;
+}
+
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#main{
+    background-image: url('/img/main-blue.jpg');
+    min-height: 700px;
+}
+
+#service{
+    background-color: aliceblue;
+    min-height: 500px;
+}
+
+#about{
+    background-color: white;
+    min-height: 800px;
+}
+
+#svyaz{
+    background-image: url('/img/telegram-bg.jpg');
+    min-height: 500px;
+}
+
+#work{
+    background-color: rgb(255, 255, 255);
+    min-height: 400px;
+}
+
+
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+.header-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white
+}
+
+.header-logo{
+    max-width: 400px;
+    height: auto;
+}
+
+.header-text{
+    display: flex;
+    align-items: center;
+}
+
+.header-text a{
+    text-decoration: none;
+    color: rgb(5, 5, 94);
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+    text-shadow: 1px 1px 1px black;
+    transition: all ease-in 0.5s;
+}
+
+.header-text a:hover{
+    color: azure;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+.main_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.main_h1{
+    font-family: 'Comfortaa';
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.main_p{
+    padding-top: 50px;
+    color: white;
+}
+
+.main_block a{
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    box-shadow: 4px 4px 4px black;
+    transition: all ease-in-out 0.2s;
+}
+
+.main_block a:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+}
+
+
+
+.about-h1{
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: 'Comfortaa';
+    padding-left: 100px;
+    text-decoration: underline 10px orange;
+}
+
+
+.about-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-block-h1{
+    font-family: 'Comfortaa';
+    font-size: 40px;
+}
+
+.about-left p{
+    padding-top: 20px;
+    width: 600px;
+    font-family: 'Comfortaa';
+}
+
+.about-left h1{
+    padding-top: 50px;
+    font-family: 'Comfortaa';
+}
+
+
+.about-center{
+    padding-top: 100px;
+}
+
+.about-center h3{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Comfortaa';
+}
+
+.about-center span{
+    color: blue;
+    font-weight: 600;
+}
+
+
+.about-right img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+.svyaz-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.svyaz-block h1{
+    color: azure;
+    font-family: 'Comfortaa';
+
+}
+
+.svyaz-block p{
+    color: azure;
+    font-family: 'Comfortaa';
+    padding-top: 20px;
+}
+
+.svyaz-block a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px black;
+    transition: all ease-in-out 0.5s;
+}
+
+.svyaz-block a:hover{
+    background-color: rgba(255, 166, 0, 0.26);
+}
+
+
+.work-block{
+    padding-left: 300px;
+    width: 1000px;
+    height: 500px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.work-block-text{
+    width: 700px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.work-block-text h3{
+    font-family: 'Comfortaa';
+    margin: 20px 0px;
+}
+
+.work-block-text span{
+    font-family: 'Comfortaa';
+    color: orange;
+    font-weight: 900;
+}
+
+
+.work-block h1{
+    color:black;
+    font-family: 'Comfortaa';
+    margin: 100px 0px 0px 100px;
+    font-size: 30px;
+}
+
+.work-block-span{
+    font-size: 30px;
+    color: black;
+    font-weight:900;
+    margin-left: 100px;
+    font-family: 'Comfortaa';
+    text-decoration: underline 10px orange;
+}
+
+.work-img{
+    width: 600px;
+    height: 500px;
+}
+
+#work .block{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+}
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+}
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+  
+  .menu__link:hover {
+    opacity: 1;
+}
+  
+
+footer{
+    background-color: #3586ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+
+}
+
+
+
+
+footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 100px) and  (max-width: 900px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    #main{
+        width: 300%;
+    }
+
+    #service{
+        width: 300%;
+    }
+    
+    #about{
+        display: block;
+        width: 300%;
+    }
+    
+    #svyaz{
+        width: 300%;
+    }
+    #svyaz h1{
+        padding-top: 120px;
+    }
+    
+    #work{
+        display: none;
+    }
+
+    footer{
+        width: 300%;
+    }
+}
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
